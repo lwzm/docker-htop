@@ -3,3 +3,5 @@ hide_kernel_threads=1
 hide_userland_threads=1
 tree_view=1
 delay=5
+header_margin=0
+fields=0 48 38 39 40 2 46 47 49 102 103 104 105 106 107 108 109 110 1
