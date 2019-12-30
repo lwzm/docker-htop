@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if tty >/dev/null; then
+if [ -n "$TTY" ]; then
     exec "$@"
 else
     exec ttyd -p 80 "$@"
